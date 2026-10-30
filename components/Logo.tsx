@@ -1,0 +1,3 @@
+export default function Logo({ size = 36 }: { size?: number }) {
+  return (<span className="logo"><svg width={size} height={size} viewBox="0 0 48 48" aria-hidden><defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stopColor="#4f7cff"/><stop offset="1" stopColor="#8b5cf6"/></linearGradient></defs><rect width="48" height="48" rx="12" fill="url(#g)"/><path d="M24 11c-6 0-10 4.5-10 10v16l3.5-3 3.300 3 3.200-3 3.200 3 3.300-3 3.500 3V21c0-5.500-4-10-10-10z" fill="#fff"/><circle cx="20" cy="22" r="2" fill="#4f7cff"/><circle cx="28" cy="22" r="2" fill="#4f7cff"/></svg><b>Ghost VPN</b></span>);
+}
